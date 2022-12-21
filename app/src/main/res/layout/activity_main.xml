@@ -34,22 +34,11 @@
 
     <com.svv.diagramview.DialView
 
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:id="@+id/dialView"
         app:layout_constraintTop_toBottomOf="@+id/customViewLabel"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="10dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
